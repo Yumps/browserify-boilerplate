@@ -1,8 +1,4 @@
-import sayHello from "./hello"
-import sayGoodbye from "./goodbye"
-import SandwichMaker from "./sandwichMaker"
-
-sayHello()
-sayGoodbye()
-
-SandwichMaker.placeOrder("rye", "capicola", "provolone")
+import contactList from "./contactList";
+import contactForm from "./contactForm";
+contactList();
+contactForm();
